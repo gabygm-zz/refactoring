@@ -26,9 +26,9 @@ public class Customer {
 		Iterator<Rental> rentals = rentalList.iterator();
 		String result = "Rental Record for " + getName() + "\n";
 		while (rentals.hasNext()) {
-			double thisAmount = 0;
+			double amountLine = 0;
 			Rental each = rentals.next();
-			thisAmount = each.calculateAmountLine();
+			amountLine = each.getCharge();
 
 			// add frequent renter points
 			frequentRenterPoints++;
@@ -39,8 +39,8 @@ public class Customer {
 
 			// show figures for this rental
 			result += "\t" + each.getMovie().getTitle() + "\t"
-					+ String.valueOf(thisAmount) + "\n";
-			totalAmount += thisAmount;
+					+ String.valueOf(amountLine) + "\n";
+			totalAmount += amountLine;
 
 		}
 		// add footer lines

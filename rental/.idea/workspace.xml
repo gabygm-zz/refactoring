@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d666a412-ac87-486e-a16f-1945920dea54" name="Default Changelist" comment="" />
+    <list default="true" id="d666a412-ac87-486e-a16f-1945920dea54" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/refactoring/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/refactoring/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/refactoring/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/refactoring/Rental.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -24,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/refactoring/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
+            <state relative-caret-position="248">
+              <caret line="28" column="29" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/refactoring/Rental.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+            <state relative-caret-position="420">
+              <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -51,8 +54,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/refactoring/Movie.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/refactoring/Customer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/refactoring/Rental.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/refactoring/Customer.java" />
       </list>
     </option>
   </component>
@@ -131,7 +134,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in rental.test (1)">
+  <component name="RunManager" selected="JUnit.All in rental.test (2)">
     <configuration name="All in rental.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rental.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -140,7 +143,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in rental.test (3)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in rental.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rental.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -220,19 +223,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.All in rental.test (3)" />
       <item itemvalue="JUnit.All in rental.test (4)" />
       <item itemvalue="JUnit.All in rental.test" />
       <item itemvalue="JUnit.All in rental.test (5)" />
       <item itemvalue="JUnit.All in rental.test (1)" />
+      <item itemvalue="JUnit.All in rental.test (2)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in rental.test (2)" />
         <item itemvalue="JUnit.All in rental.test (1)" />
         <item itemvalue="JUnit.All in rental.test (5)" />
         <item itemvalue="JUnit.All in rental.test" />
         <item itemvalue="JUnit.All in rental.test (4)" />
-        <item itemvalue="JUnit.All in rental.test (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -250,9 +253,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_rental_test - 2019.08.12 at 11h 48m 18s.xml">
-      <configuration name="All in rental.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="CustomerTest - 2019.08.12 at 14h 18m 04s.xml">
       <configuration name="CustomerTest" configurationId="JUnit" />
     </history-entry>
@@ -279,6 +279,9 @@
     </history-entry>
     <history-entry file="All_in_rental_test_(1) - 2019.08.12 at 16h 47m 29s.xml">
       <configuration name="All in rental.test (1)" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_rental_test_(2) - 2019.08.12 at 16h 59m 35s.xml">
+      <configuration name="All in rental.test (2)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
@@ -325,15 +328,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/refactoring/Rental.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="420">
+          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/refactoring/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="72" selection-end-column="5" />
+        <state relative-caret-position="248">
+          <caret line="28" column="29" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
