@@ -2,12 +2,12 @@ package com.refactoring;
 
 public class Rental {
 
-    private Movie mov;
+    private Movie movie;
 
     private int daysRented;
 
     public Rental(Movie movie, int daysRented) {
-        this.mov = movie;
+        this.movie = movie;
         this.daysRented = daysRented;
     }
 
@@ -15,7 +15,7 @@ public class Rental {
         return daysRented;
     }
 
-    public Movie getMov() {
-        return mov;
+    public Movie getMovie() {
+        return movie;
     }
 }

@@ -5,32 +5,32 @@ import java.util.Iterator;
 
 public class Customer {
 
-	private String n;
+	private String name;
 	private ArrayList<Rental> rentalList = new ArrayList<Rental>();
 
 	public Customer(String name) {
-		this.n = name;
+		this.name = name;
 	}
 
 	public void addRental(Rental arg) {
 		rentalList.add(arg);
 	}
 
-	public String getN() {
-		return n;
+	public String getName() {
+		return name;
 	}
 
 	public String statement() {
 		double totalAmount = 0;
 		int frequentRenterPoints = 0;
 		Iterator<Rental> rentals = rentalList.iterator();
-		String result = "Rental Record for " + getN() + "\n";
+		String result = "Rental Record for " + getName() + "\n";
 		while (rentals.hasNext()) {
 			double thisAmount = 0;
 			Rental each = rentals.next();
 
 			// determine amounts for each line
-			switch (each.getMov().getPriceCode()) {
+			switch (each.getMovie().getPriceCode()) {
 			case Movie.REGULAR:
 				thisAmount += 2;
 				if (each.getDaysRented() > 2)
@@ -50,12 +50,12 @@ public class Customer {
 			// add frequent renter points
 			frequentRenterPoints++;
 			// add bonus for a two day new release rental
-			if ((each.getMov().getPriceCode() == Movie.NEW_RELEASE)
+			if ((each.getMovie().getPriceCode() == Movie.NEW_RELEASE)
 					&& each.getDaysRented() > 1)
 				frequentRenterPoints++;
 
 			// show figures for this rental
-			result += "\t" + each.getMov().getTitle() + "\t"
+			result += "\t" + each.getMovie().getTitle() + "\t"
 					+ String.valueOf(thisAmount) + "\n";
 			totalAmount += thisAmount;
 
