@@ -28,7 +28,7 @@ public class Customer {
 		while (rentals.hasNext()) {
 			double thisAmount = 0;
 			Rental each = rentals.next();
-			thisAmount = calculateAmountLine(each);
+			thisAmount = each.calculateAmountLine();
 
 			// add frequent renter points
 			frequentRenterPoints++;
@@ -48,28 +48,6 @@ public class Customer {
 		result += "You earned " + String.valueOf(frequentRenterPoints)
 				+ " frequent renter points";
 		return result;
-	}
-
-	private double calculateAmountLine(Rental each) {
-		double totalAmount = 0;
-		// determine amounts for each line
-		switch (each.getMovie().getPriceCode()) {
-		case Movie.REGULAR:
-			totalAmount += 2;
-			if (each.getDaysRented() > 2)
-				totalAmount += (each.getDaysRented() - 2) * 1.5;
-			break;
-		case Movie.NEW_RELEASE:
-			totalAmount += each.getDaysRented() * 3;
-			break;
-		case Movie.CHILDRENS:
-			totalAmount += 1.5;
-			if (each.getDaysRented() > 3)
-				totalAmount += (each.getDaysRented() - 3) * 1.5;
-			break;
-
-		}
-		return totalAmount;
 	}
 
 }
