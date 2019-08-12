@@ -3,7 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="d666a412-ac87-486e-a16f-1945920dea54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/refactoring/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/refactoring/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/META-INF/rental.main.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/refactoring/Customer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/refactoring/Customer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/com/refactoring/Rental.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/com/refactoring/Rental.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/META-INF/rental.main.kotlin_module" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,8 +30,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/refactoring/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+            <state relative-caret-position="399">
+              <caret line="54" column="72" lean-forward="true" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -125,16 +128,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in rental.test (4)">
+  <component name="RunManager" selected="JUnit.All in rental.test (1)">
     <configuration name="All in rental.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rental.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in rental.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rental.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -158,17 +153,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="All in rental.test (5)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rental.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.refactoring.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.refactoring" />
-      <option name="MAIN_CLASS_NAME" value="com.refactoring.CustomerTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in rental.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rental.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -221,19 +217,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.CustomerTest" />
-      <item itemvalue="JUnit.All in rental.test (1)" />
-      <item itemvalue="JUnit.All in rental.test (2)" />
       <item itemvalue="JUnit.All in rental.test (3)" />
       <item itemvalue="JUnit.All in rental.test (4)" />
+      <item itemvalue="JUnit.All in rental.test" />
+      <item itemvalue="JUnit.All in rental.test (5)" />
+      <item itemvalue="JUnit.All in rental.test (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in rental.test (1)" />
+        <item itemvalue="JUnit.All in rental.test (5)" />
+        <item itemvalue="JUnit.All in rental.test" />
         <item itemvalue="JUnit.All in rental.test (4)" />
         <item itemvalue="JUnit.All in rental.test (3)" />
-        <item itemvalue="JUnit.All in rental.test (2)" />
-        <item itemvalue="JUnit.All in rental.test (1)" />
-        <item itemvalue="JUnit.CustomerTest" />
       </list>
     </recent_temporary>
   </component>
@@ -272,12 +268,18 @@
     <history-entry file="All_in_rental_test_(4) - 2019.08.12 at 14h 36m 11s.xml">
       <configuration name="All in rental.test (4)" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="All_in_rental_test - 2019.08.12 at 16h 43m 08s.xml">
+      <configuration name="All in rental.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="All_in_rental_test_(5) - 2019.08.12 at 16h 46m 27s.xml">
+      <configuration name="All in rental.test (5)" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="989" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14529915" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14529915" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -286,7 +288,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.28539577" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.051282052" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -324,8 +326,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/refactoring/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        <state relative-caret-position="399">
+          <caret line="54" column="72" lean-forward="true" selection-start-line="54" selection-start-column="72" selection-end-line="54" selection-end-column="72" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
