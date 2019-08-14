@@ -21,28 +21,28 @@ public class Customer {
 	}
 
 	public String statement() {
-		double totalAmount = 0;
-		int frequentRenterPoints = 0;
 		Iterator<Rental> rentals = rentalList.iterator();
 		String result = "Rental Record for " + getName() + "\n";
-
 		while (rentals.hasNext()) {
 			Rental each = rentals.next();
-			double amountPerMovie = each.getCharge();
-			frequentRenterPoints += each.getFrequentRenterPoints();
-
-			// show figures for this rental
-			result += "\t" + each.getMovie().getTitle() + "\t"
-					+ String.valueOf(amountPerMovie) + "\n";
-			totalAmount += amountPerMovie;
-
-
+			result += "\t" + each.getMovie().getTitle() + "\t" + String.valueOf(each.getCharge()) + "\n";
 		}
 		// add footer lines
-		result += "Amount owed is " + String.valueOf(totalAmount) + "\n";
-		result += "You earned " + String.valueOf(frequentRenterPoints)
+		result += "Amount owed is " + String.valueOf(getTotalAmount()) + "\n";
+		result += "You earned " + String.valueOf(getTotalFrequentTotalPoint())
 				+ " frequent renter points";
 		return result;
+	}
+
+	private double getTotalAmount() {
+		double totalAmount = rentalList.stream().mapToDouble(Rental::getCharge).sum();
+		return totalAmount;
+	}
+
+	private int getTotalFrequentTotalPoint(){
+		int frequentRenterPoints = rentalList.stream().mapToInt(Rental::getFrequentRenterPoints).sum();
+		return frequentRenterPoints;
+
 	}
 
 }
