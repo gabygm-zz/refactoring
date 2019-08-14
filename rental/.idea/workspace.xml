@@ -26,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/refactoring/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="439">
-              <caret line="47" selection-start-line="47" selection-end-line="47" />
+            <state relative-caret-position="308">
+              <caret line="36" column="41" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -38,8 +38,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/refactoring/Rental.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+            <state relative-caret-position="221">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="e#321#322#0" expanded="true" />
                 <element signature="e#349#350#0" expanded="true" />
@@ -51,7 +51,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/com/refactoring/CustomerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="398">
+            <state relative-caret-position="675">
               <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
             </state>
           </provider>
@@ -308,12 +308,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="All_in_rental_test - 2019.08.12 at 17h 53m 05s.xml">
-      <configuration name="All in rental.test" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_rental_test_(5) - 2019.08.12 at 17h 55m 11s.xml">
-      <configuration name="All in rental.test (5)" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="All_in_rental_test_(1) - 2019.08.12 at 17h 56m 54s.xml">
       <configuration name="All in rental.test (1)" configurationId="JUnit" />
     </history-entry>
@@ -338,12 +332,17 @@
     <history-entry file="CustomerTest - 2019.08.13 at 23h 17m 02s.xml">
       <configuration name="CustomerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="CustomerTest - 2019.08.13 at 23h 21m 27s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.08.13 at 23h 31m 31s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="101" y="23" width="1680" height="988" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14529915" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14529915" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -352,13 +351,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20647322" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3549107" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.19084822" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32998884" />
@@ -381,10 +380,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/refactoring/CustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/refactoring/Rental.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+        <state relative-caret-position="221">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
           <folding>
             <element signature="e#321#322#0" expanded="true" />
             <element signature="e#349#350#0" expanded="true" />
@@ -392,17 +398,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/refactoring/CustomerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="398">
-          <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/refactoring/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="439">
-          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        <state relative-caret-position="308">
+          <caret line="36" column="41" selection-start-line="36" selection-start-column="27" selection-end-line="36" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
