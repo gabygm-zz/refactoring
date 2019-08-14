@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d666a412-ac87-486e-a16f-1945920dea54" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/com/refactoring/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/refactoring/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/refactoring/Rental.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/refactoring/Rental.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -27,8 +26,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/refactoring/Customer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="28" column="29" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="29" />
+            <state relative-caret-position="439">
+              <caret line="47" selection-start-line="47" selection-end-line="47" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -39,13 +38,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/refactoring/Rental.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+            <state relative-caret-position="225">
+              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+              <folding>
+                <element signature="e#321#322#0" expanded="true" />
+                <element signature="e#349#350#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/refactoring/CustomerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="398">
+              <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/refactoring/Movie.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CHILDRENS</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -60,9 +86,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="101" />
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="989" />
+    <option name="height" value="988" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -110,6 +137,27 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="refactoring" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="rental" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rental" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="rental" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rental" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rental" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rental" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="refactoring" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -134,16 +182,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in rental.test (2)">
+  <component name="RunManager" selected="JUnit.CustomerTest">
     <configuration name="All in rental.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rental.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in rental.test (2)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rental.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
@@ -171,6 +211,21 @@
       <module name="rental.test" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CustomerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rental.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.refactoring.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.refactoring" />
+      <option name="MAIN_CLASS_NAME" value="com.refactoring.CustomerTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -227,11 +282,11 @@
       <item itemvalue="JUnit.All in rental.test" />
       <item itemvalue="JUnit.All in rental.test (5)" />
       <item itemvalue="JUnit.All in rental.test (1)" />
-      <item itemvalue="JUnit.All in rental.test (2)" />
+      <item itemvalue="JUnit.CustomerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in rental.test (2)" />
+        <item itemvalue="JUnit.CustomerTest" />
         <item itemvalue="JUnit.All in rental.test (1)" />
         <item itemvalue="JUnit.All in rental.test (5)" />
         <item itemvalue="JUnit.All in rental.test" />
@@ -253,39 +308,39 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CustomerTest - 2019.08.12 at 14h 18m 04s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="CustomerTest - 2019.08.12 at 14h 18m 13s.xml">
-      <configuration name="CustomerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_rental_test_(1) - 2019.08.12 at 14h 19m 02s.xml">
-      <configuration name="All in rental.test (1)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_rental_test_(2) - 2019.08.12 at 14h 20m 18s.xml">
-      <configuration name="All in rental.test (2)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_rental_test_(3) - 2019.08.12 at 14h 26m 44s.xml">
-      <configuration name="All in rental.test (3)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_rental_test_(4) - 2019.08.12 at 14h 36m 11s.xml">
-      <configuration name="All in rental.test (4)" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="All_in_rental_test - 2019.08.12 at 16h 43m 08s.xml">
+    <history-entry file="All_in_rental_test - 2019.08.12 at 17h 53m 05s.xml">
       <configuration name="All in rental.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_rental_test_(5) - 2019.08.12 at 16h 46m 27s.xml">
+    <history-entry file="All_in_rental_test_(5) - 2019.08.12 at 17h 55m 11s.xml">
       <configuration name="All in rental.test (5)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_rental_test_(1) - 2019.08.12 at 16h 47m 29s.xml">
+    <history-entry file="All_in_rental_test_(1) - 2019.08.12 at 17h 56m 54s.xml">
       <configuration name="All in rental.test (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_rental_test_(2) - 2019.08.12 at 16h 59m 35s.xml">
-      <configuration name="All in rental.test (2)" configurationId="JUnit" />
+    <history-entry file="CustomerTest - 2019.08.13 at 23h 08m 23s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.08.13 at 23h 10m 06s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.08.13 at 23h 10m 20s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.08.13 at 23h 10m 54s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.08.13 at 23h 11m 41s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.08.13 at 23h 11m 54s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="CustomerTest - 2019.08.13 at 23h 17m 02s.xml">
+      <configuration name="CustomerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="989" extended-state="0" />
+    <frame x="101" y="23" width="1680" height="988" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14529915" />
@@ -296,8 +351,8 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.1928651" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32924107" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20647322" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -321,22 +376,33 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/refactoring/Movie.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        <state relative-caret-position="60">
+          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/refactoring/Rental.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        <state relative-caret-position="225">
+          <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
+          <folding>
+            <element signature="e#321#322#0" expanded="true" />
+            <element signature="e#349#350#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/refactoring/CustomerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="398">
+          <caret line="54" column="36" lean-forward="true" selection-start-line="54" selection-start-column="36" selection-end-line="54" selection-end-column="36" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/refactoring/Customer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="28" column="29" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="29" />
+        <state relative-caret-position="439">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
