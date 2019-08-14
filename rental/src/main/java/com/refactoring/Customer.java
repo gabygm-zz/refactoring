@@ -2,6 +2,7 @@ package com.refactoring;
 
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.stream.Collectors;
 
 public class Customer {
 
@@ -21,17 +22,23 @@ public class Customer {
 	}
 
 	public String statement() {
-		Iterator<Rental> rentals = rentalList.iterator();
-		String result = "Rental Record for " + getName() + "\n";
-		while (rentals.hasNext()) {
-			Rental each = rentals.next();
-			result += "\t" + each.getMovie().getTitle() + "\t" + String.valueOf(each.getCharge()) + "\n";
-		}
+
+		String result = getHeader();
+		result += getDetailsMovieRented();
 		// add footer lines
 		result += "Amount owed is " + String.valueOf(getTotalAmount()) + "\n";
 		result += "You earned " + String.valueOf(getTotalFrequentTotalPoint())
 				+ " frequent renter points";
 		return result;
+	}
+
+	private String getDetailsMovieRented() {
+		String result = rentalList.stream().map(Rental::getDetailRentalMovie).collect(Collectors.joining());
+		return result;
+	}
+
+	private String getHeader() {
+		return "Rental Record for " + getName() + "\n";
 	}
 
 	private double getTotalAmount() {
