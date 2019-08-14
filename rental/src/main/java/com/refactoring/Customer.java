@@ -1,7 +1,5 @@
 package com.refactoring;
-
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.stream.Collectors;
 
 public class Customer {
@@ -22,10 +20,12 @@ public class Customer {
 	}
 
 	public String statement() {
+		String result = String.format("%s%s%s",getHeader(), getDetailsMovieRented(), getFooter());
+		return result;
+	}
 
-		String result = getHeader();
-		result += getDetailsMovieRented();
-		// add footer lines
+	private String getFooter() {
+		String result = "";
 		result += "Amount owed is " + String.valueOf(getTotalAmount()) + "\n";
 		result += "You earned " + String.valueOf(getTotalFrequentTotalPoint())
 				+ " frequent renter points";
